@@ -1,5 +1,7 @@
 package com.iesvirgendelcarmen.polimorfismo.teoria;
 
+import java.util.List;
+
 public abstract class FiguraCircular implements Poligono {
 
 	private String nombre;
