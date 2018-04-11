@@ -66,8 +66,9 @@ Comparable<PoligonoRegular> {
 	//devuelve la diferencia de número de lados
 	@Override
 	public int compareTo(PoligonoRegular o) {
-		// TODO Auto-generated method stub
-		return this.numeroLados - o.numeroLados;
+		
+			return this.numeroLados - o.numeroLados;
+		
 	}
 
 

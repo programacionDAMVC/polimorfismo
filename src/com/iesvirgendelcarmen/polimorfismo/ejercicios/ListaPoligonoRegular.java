@@ -46,6 +46,13 @@ public class ListaPoligonoRegular {
 	public List<PoligonoRegular> getListaPoligonos() {
 		return listaPoligonos;
 	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "ListaPoligonoRegular [listaPoligonos=" + listaPoligonos + "]";
+	}
 
 	public static void main(String[] args) {
 		Cuadrado c = new Cuadrado(1);

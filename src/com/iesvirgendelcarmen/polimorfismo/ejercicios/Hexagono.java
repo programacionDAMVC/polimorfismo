@@ -12,5 +12,7 @@ public class Hexagono extends PoligonoRegular {
 		double apotema = longitudLado / 1.15;
 		return (float) (calcularPerimetro() * apotema / 2.0);
 	}
+	
+	
 
 }
